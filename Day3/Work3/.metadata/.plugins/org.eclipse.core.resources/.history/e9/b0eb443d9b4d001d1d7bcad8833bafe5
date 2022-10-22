@@ -1,0 +1,33 @@
+package kodlamaIoMimari.business;
+
+import kodlamaIoMimari.core.logging.Logger;
+import kodlamaIoMimari.dataAccess.CategoryDao;
+import kodlamaIoMimari.entities.Category;
+
+public class CategoryManager {
+	private CategoryDao categoryDao;
+	private Logger[] loggers;
+
+	public CategoryManager(CategoryDao categoryDao, Logger[] loggers) {
+		this.categoryDao = categoryDao;
+		this.loggers = loggers;
+	}
+	
+	public void add(CategoryDao categoryDao) {
+		
+		Category[] categories = {new Category("Programlama"),new Category("Yabancı Dil Eğitimi")};
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

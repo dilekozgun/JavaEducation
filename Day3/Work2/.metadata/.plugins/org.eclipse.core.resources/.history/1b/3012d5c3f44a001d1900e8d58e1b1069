@@ -1,0 +1,10 @@
+package abstractDemo;
+
+public class MysqlDatabaseManager extends BaseDatabaseManager {
+
+	@Override
+	public void getData() {
+		
+	}
+
+}

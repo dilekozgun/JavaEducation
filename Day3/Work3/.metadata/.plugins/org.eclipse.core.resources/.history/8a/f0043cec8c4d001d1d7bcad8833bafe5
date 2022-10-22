@@ -1,0 +1,5 @@
+package kodlamaIoMimari.entities;
+
+public class Course {
+
+}

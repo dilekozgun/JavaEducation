@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.business.ProductManager"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.entities.Product"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.ProductDao"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.JdbcProductDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.Logger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.EmailLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.BaseLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="overriding.BaseKrediManager"/>
+    <fullyQualifiedTypeName name="abstractClass.WomanGameCalculator"/>
+    <fullyQualifiedTypeName name="abstractClass.GameCalculator"/>
+    <fullyQualifiedTypeName name="abstractDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.OracleDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.BaseDatabaseManager"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="interfaces.IRepository"/>
+    <fullyQualifiedTypeName name="interfaces.ICustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.MysqlCustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfaces.OracleCustomerDal"/>
+    <fullyQualifiedTypeName name="interfaceDemo.IWorkable"/>
+    <fullyQualifiedTypeName name="interfaceDemo.IEatable"/>
+    <fullyQualifiedTypeName name="interfaceDemo.IPayable"/>
+    <fullyQualifiedTypeName name="staticDemo.ProductValidator"/>
+    <fullyQualifiedTypeName name="staticDemo.ProductManager"/>
+    <fullyQualifiedTypeName name="staticDemo.Product"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper.Crud"/>
+</qualifiedTypeNameHistroy>

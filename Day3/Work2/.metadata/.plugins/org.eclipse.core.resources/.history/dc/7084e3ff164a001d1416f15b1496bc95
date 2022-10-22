@@ -1,0 +1,29 @@
+package oopWithNLayeredApp.business;
+
+import oopWithNLayeredApp.dataAccess.JdbcProductDao;
+import oopWithNLayeredApp.entities.Product;
+
+public class ProductManager {
+	public void add(Product product) throws Exception { //throws Exception : bu methodu çağırdığında hata fırlatılabilir demek
+		//Business Rools : İş kuralları
+		if (product.getUnitPrice()<10) { // eğer ürünün fiyatı 10 dan küçükse
+			throw new Exception("Ürün fiyatı 10 dan küçük olamaz."); // yeni bir hata fırlat,eğer sistem hata verirse orada kesilir program aşağı ilerlemez kodlarda
+		}
+		
+		//Yukarıdaki iş kuralını,yani şartımızı geçen bir ürün eklenmeye uygun anlamına gelir
+		//Şimdi veritabanına ekleyelim
+		
+		JdbcProductDao productDao = new JdbcProductDao();
+		productDao.add(product);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

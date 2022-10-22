@@ -1,0 +1,20 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+       int number = 25 ;
+	   int remainder = number % 2 ; // % : mod operatörü,bölümden kalanı verir.	
+	   int asal = "";
+	   
+	   for (int i = 1; i <= number; i++) {
+		   remainder= number % i;
+		   if (remainder==0) {
+			asal++;
+		}
+		
+	}
+		
+	}
+
+}

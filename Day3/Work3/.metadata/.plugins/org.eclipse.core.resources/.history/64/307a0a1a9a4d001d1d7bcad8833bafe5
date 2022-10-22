@@ -1,0 +1,7 @@
+package kodlamaIoMimari.business;
+
+public class CategoryManager {
+private CategoryDao categoryDao;
+
+
+}

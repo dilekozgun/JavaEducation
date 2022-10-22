@@ -1,0 +1,26 @@
+package inheritanceDemo;
+
+public class KrediUI {
+	public void KrediHesapla(BaseKrediManager baseKrediManager ) { 
+		baseKrediManager.Hesapla();
+		
+		//inheritance ın başka bi özelliği :  biz parametre olarak BaseKrediManager tipinde bir veri istediğimizi söyledik.
+		//BaseKrediManager hem OgretmenKrediManager hem de TarimKrediManager ın annesi olduğu için  bu alana ikisini de gönderebiliriz
+		//OgretmenKrediManager bir BaseKrediManager dır.
+		//TarimKrediManager bir BaseKrediManager dır.
+		//BaseKrediManager, OgretmenKrediManager ve TarimKrediManager'ın referansını tutabilir.Bu sayede yukarıdaki işlem gerçekleşir.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

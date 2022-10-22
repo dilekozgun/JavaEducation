@@ -1,0 +1,21 @@
+package kodlamaIoMimari.business;
+
+import kodlamaIoMimari.dataAccess.CourseDao;
+import kodlamaIoMimari.entities.Course;
+
+public class CourseManager {
+	private CourseDao courseDao;
+	
+	
+   public void add(Course course) {
+	   
+	   if() {
+		   
+	   }else if() {
+		   
+	   }
+	   courseDao.add(course);
+	   
+	   
+   }
+}

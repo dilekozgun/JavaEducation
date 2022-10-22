@@ -1,0 +1,30 @@
+package methodOverloading;
+
+public class DortIslem {
+	public int topla(int sayi1,int sayi2) {
+		return sayi1+sayi2;
+	}
+	
+	public int topla(int sayi1,int sayi2,int sayi3) {
+		return sayi1+sayi2+sayi3;
+	}
+	
+	//Overloading : Aynı isimde iki method oluşturabiliriz.Ancak parametre sayıları veya parametre çeşitleri farklı olmalı.
+	//Yani birbirlerinden ayıran bi özellik olmalı ki karışıklık olmasın.
+	// Mesela şöyle de olabilir.
+	
+	public int topla(double sayi1,double sayi2) {
+		return sayi1+sayi2;
+	}
+	
+	//Sıralama farklı olsa da oluyor.
+	
+	public String topla(String ad,int sayi) {
+		return ad+sayi;
+	}
+	
+	public String topla(int sayi,String ad) {
+		return ad+sayi;
+	}
+
+}

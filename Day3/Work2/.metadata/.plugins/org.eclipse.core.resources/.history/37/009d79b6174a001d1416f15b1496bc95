@@ -1,0 +1,27 @@
+package oopWithNLayeredApp;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Bir uygulamada kodlarımızı üç katmana böleriz 
+		// Amacımız kodları kolay yönetebilmek ve sürdürülebilirlik birde test etmeyi kolaylaştırma
+		// Data Access : Veriye Erişim Kodları
+		// Business : İş geliştirme,kişiye özel veri gelmesi için kodlar
+		// UI : User İnterface, Arayüz kodları
+		
+		// Data Access bu üç yolla yapılabilir veya Business da yapılabilir.
+		
+		//JDBC : Java uygulamalarında veritabanı bağlantısını sağlar
+		//Hibernate-ORM : JDBC nin geliştirmesi
+		//JPA : Hibernate Geliştirmesi (Bizim kullanacağımız)
+		
+		//Entities : Veritabanı nesnelerimiz.
+		
+		//Aynı isimde üründen ikincisini ekleyememe : Business Domain - İş Kuralı
+		//Bu durum tamamen işin yapısına göre şekillenir. Eklenedebilir eklenmeyedebilir.
+		//Bu kodlar business katmanında yer alır.
+		
+
+	}
+
+}

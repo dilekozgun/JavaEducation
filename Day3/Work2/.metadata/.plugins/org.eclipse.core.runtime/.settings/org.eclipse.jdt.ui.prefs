@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="oopWithNLayeredApp.dataAccess.JdbcProductDao"><rhs name\="oopWithNLayeredApp.dataAccess.JdbcProductDao"/></lhs><lhs name\="oopWithNLayeredApp.entities.Product"><rhs name\="oopWithNLayeredApp.entities.Product"/></lhs><lhs name\="oopWithNLayeredApp.business.ProductManager"><rhs name\="oopWithNLayeredApp.business.ProductManager"/></lhs><lhs name\="oopWithNLayeredApp.dataAccess.ProductDao"><rhs name\="oopWithNLayeredApp.dataAccess.JdbcProductDao"/></lhs><lhs name\="oopWithNLayeredApp.core.logging.Logger"><rhs name\="oopWithNLayeredApp.core.logging.DatabaseLogger"/><rhs name\="oopWithNLayeredApp.core.logging.FileLogger"/><rhs name\="oopWithNLayeredApp.core.logging.MailLogger"/></lhs><lhs name\="polymorphismDemo.BaseLogger"><rhs name\="polymorphismDemo.EmailLogger"/><rhs name\="polymorphismDemo.BaseLogger"/><rhs name\="polymorphismDemo.DatabaseLogger"/></lhs><lhs name\="polymorphismDemo.EmailLogger"><rhs name\="polymorphismDemo.EmailLogger"/></lhs><lhs name\="polymorphismDemo.CustomerManager"><rhs name\="polymorphismDemo.CustomerManager"/></lhs><lhs name\="abstractClass.GameCalculator"><rhs name\="abstractClass.WomanGameCalculator"/></lhs><lhs name\="abstractClass.WomanGameCalculator"><rhs name\="abstractClass.WomanGameCalculator"/></lhs><lhs name\="abstractDemo.CustomerManager"><rhs name\="abstractDemo.CustomerManager"/></lhs><lhs name\="abstractDemo.BaseDatabaseManager"><rhs name\="abstractDemo.OracleDatabaseManager"/></lhs><lhs name\="interfaces.ICustomerDal"><rhs name\="interfaces.MysqlCustomerDal"/><rhs name\="interfaces.OracleCustomerDal"/></lhs><lhs name\="interfaces.CustomerManager"><rhs name\="interfaces.CustomerManager"/></lhs><lhs name\="staticDemo.ProductValidator"><rhs name\="staticDemo.ProductValidator"/></lhs><lhs name\="staticDemo.ProductManager"><rhs name\="staticDemo.ProductManager"/></lhs><lhs name\="staticDemo.Product"><rhs name\="staticDemo.Product"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

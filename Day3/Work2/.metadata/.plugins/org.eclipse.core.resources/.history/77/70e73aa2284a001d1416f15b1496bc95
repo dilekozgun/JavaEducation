@@ -1,0 +1,12 @@
+package oopWithNLayeredApp.dataAccess;
+
+import oopWithNLayeredApp.entities.Product;
+
+//interface : birbirinin alternatifi olan durumlarda kullanılır.
+// **Sadece method imzasını barındırabilir.Yani şablonu yazılır burda içerisi implement edilen sınıflarda doldurulur.
+
+public interface ProductDao {
+	
+	void add(Product product);
+
+}

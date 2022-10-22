@@ -1,0 +1,8 @@
+package interfaces;
+
+//İnterfaceler class değildir,sadece referans tutucu görevi görür.
+
+public interface ICustomerDal {
+	
+
+}

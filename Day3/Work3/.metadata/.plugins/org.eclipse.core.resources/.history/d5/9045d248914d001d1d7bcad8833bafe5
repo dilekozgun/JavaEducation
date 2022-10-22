@@ -1,0 +1,5 @@
+package kodlamaIoMimari.dataAccess;
+
+public class HibernateCategoryDao {
+
+}

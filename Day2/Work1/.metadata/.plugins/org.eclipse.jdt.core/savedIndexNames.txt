@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Java\OOP-Giris\.metadata\.plugins\org.eclipse.jdt.core
+1888937284.index
+858178207.index
+1865797976.index
+2104893808.index

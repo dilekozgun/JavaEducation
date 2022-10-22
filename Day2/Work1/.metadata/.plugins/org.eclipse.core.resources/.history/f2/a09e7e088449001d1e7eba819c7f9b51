@@ -1,0 +1,7 @@
+package inheritanceDemo;
+
+//Base : Ana/Temel 
+
+public class BaseKrediManager {
+
+}

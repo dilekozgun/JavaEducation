@@ -1,0 +1,22 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// mini proje : mükemmel sayı algoritması.Kendinden başka pozitif tam bölen
+		// sayıların toplamı,sayının kendisini vermeli
+
+		int number = 5;
+		int pozitifBolen = 0;
+		for (int i = 1; i < number; i++) {
+			if (number % i == 0) {
+				pozitifBolen += i;
+			}
+		}
+		if (pozitifBolen == number) {
+			System.out.println(number + "sayısı bir mükemmel sayıdır");
+		}
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package kodlamaIoMimari.entities;
+
+public class Course {
+	int id;
+	String name;
+	String description;
+	double price;
+	Category category;
+	Instructor instructor;
+	
+	
+	
+	
+
+}

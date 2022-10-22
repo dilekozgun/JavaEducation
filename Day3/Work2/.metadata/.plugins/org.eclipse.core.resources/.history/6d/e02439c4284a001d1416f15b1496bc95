@@ -1,0 +1,10 @@
+package oopWithNLayeredApp.dataAccess;
+
+import oopWithNLayeredApp.entities.Product;
+
+public class HibernateProductDao {
+	public void add(Product product) {
+		//Verileri Hibernate ile veritabanına eklemek istediğimizde JDBC yerine 
+		System.out.println("Hibernate ile veritabanına eklendi.");
+	}
+}

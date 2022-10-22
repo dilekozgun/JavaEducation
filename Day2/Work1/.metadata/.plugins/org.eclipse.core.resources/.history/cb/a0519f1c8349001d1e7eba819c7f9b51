@@ -1,0 +1,7 @@
+package inheritanceDemo;
+
+//Ana kredi yönetici
+
+public class BaseKrediManager {
+
+}

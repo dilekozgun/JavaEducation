@@ -1,0 +1,11 @@
+package interfaces;
+
+//İnterfaceler class değildir,sadece referans tutucu görevi görür.
+//Mtehod yazarken public yazmamıza gerek yok çünkü interface in üyeleri default olarak public tir.
+//Dal : Data Access Layer
+//Bu interface in amacı : Veritabanına müşteri eklicez. Bu işlem için veritabanı seçeneklerimiz mevcut.Bu interface de bu seçeneklerin base i 
+
+public interface ICustomerDal {
+	void add(); //operasyonların sadece imzası yazılır.
+
+}

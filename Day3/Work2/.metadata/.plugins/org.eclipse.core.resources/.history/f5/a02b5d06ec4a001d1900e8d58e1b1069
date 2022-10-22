@@ -1,0 +1,18 @@
+package abstractClass;
+
+public class GameCalculator {
+	public void hesapla() {
+		System.out.println("Puanınız : 100");
+	}
+	
+	public void gameOver() {
+		System.out.println("Oyun Bitti");
+	}
+	
+	
+	
+	
+	//Bir oyunda kadın,erkek ve çocuk kullanıcılar için puan hesaplama yapacağız.
+	//Burda her biri için hesaplama olacağından base bir hesaplama sınıfı olmalı
+	//Birbirinin alternatifi olan şeylerde inheritance gelmeli aklımıza.
+}

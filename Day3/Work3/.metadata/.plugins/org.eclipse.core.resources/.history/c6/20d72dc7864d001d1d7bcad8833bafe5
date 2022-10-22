@@ -1,0 +1,5 @@
+package kodlamaIoMimari.core.logging;
+
+public class DatabaseLogger {
+
+}

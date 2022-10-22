@@ -1,0 +1,7 @@
+package interfaces;
+
+public class Main {
+	// İnterface ler uygulamalarda bağımlılığı yönettiğimiz konulardan bir tanesidir.
+	// bunlar bir sınıf kabul edilmiyor.ancak normal class lar veya abstract classlar gibi referans tutabiliyolar.
+
+}

@@ -1,0 +1,35 @@
+package abstractClass;
+
+public class Main {
+
+	public static void main(String[] args) {
+		WomanGameCalculator womanGameCalculator = new WomanGameCalculator();
+		womanGameCalculator.hesapla();
+		womanGameCalculator.gameOver();
+
+		// abstractClass : Soyut sınıf demektir. Yapısal anlamda normal sınıflardan
+		// farkı yoktur,kullanım farkı vardır sadece.
+		// Bir sınıf sadece bir sınıfı inheritance edebilir.Bu abstract sınıflarda da
+		// geçerlidir. Ve bir sınıf sadece bir sınıfı inheritance ederken bu normal bir
+		// sınıf veya abastract olabilir,ikisi bir arada olmaz.
+
+		// GameCalculator gameCalculator = new GameCalculator();
+		// **abstract sınıflar asla new yapılamaz, tek başına kullanılamaz
+		// new yapılabilmesi için aşağıdaki gibi methodunu ezmemiz gerekir.Bu kullanımda
+		// iyi bir kullanım değildir.
+//		GameCalculator calculator = new GameCalculator() {
+//			
+//			@Override
+//			public void hesapla() {
+//				// TODO Auto-generated method stub
+//				
+//			}
+//		};
+		
+		
+		GameCalculator calculator = new WomanGameCalculator(); //GameCalculator extend edildiği class ların referasnlarını tutabilir.
+		
+
+	}
+
+}

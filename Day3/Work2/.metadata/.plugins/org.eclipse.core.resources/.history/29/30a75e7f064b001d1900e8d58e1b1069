@@ -1,0 +1,14 @@
+package interfaces;
+
+public class Main {
+	// İnterface ler uygulamalarda bağımlılığı yönettiğimiz konulardan bir tanesidir.
+	// bunlar bir sınıf kabul edilmiyor.ancak normal class lar veya abstract classlar gibi referans tutabiliyolar.
+	
+	//Class : Tüm methodların tamamlanmış olması gerekir,yani şablon halde bırakamayız method içerisine ne yazılacaksa sınıf içerisinde yazılmalı
+	//Abstract Class : Methodlar tamamlanmış da olabilir tamamlanmamış da. eğer tamamlanmadıysa inherit eden class içerisini doldurmak zorunda
+	//İnterface : Abstract larda tamalanmamış imza olarak bırakılan methodlara benzer bir durum söz konusu
+	//tamamlanmamış operasyonlar içerir.
+	//İnheritance ile İnterface in farkı:
+	//İnheritance da bir sınıf bir sınıfı inherit edebilirken ,interface de bir sınıf birden fazla interface i implemente edebiliyor.
+
+}

@@ -1,0 +1,9 @@
+package interfaces;
+
+//İnterfaceler class değildir,sadece referans tutucu görevi görür.
+//Mtehod yazarken public yazmamıza gerek yok çünkü interface in üyeleri default olarak public tir.
+
+public interface ICustomerDal {
+	void add();
+
+}

@@ -1,0 +1,15 @@
+package kodlamaIoMimari.business;
+
+import kodlamaIoMimari.core.logging.Logger;
+import kodlamaIoMimari.dataAccess.CategoryDao;
+
+public class CategoryManager {
+	private CategoryDao categoryDao;
+	private Logger[] loggers;
+
+	public CategoryManager(CategoryDao categoryDao, Logger[] loggers) {
+		this.categoryDao = categoryDao;
+		this.loggers = loggers;
+	}
+
+}

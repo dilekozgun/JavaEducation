@@ -1,0 +1,11 @@
+package staticDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ProductManager productManager = new ProductManager();
+		Product product = new Product();
+		productManager.add(product);
+	}
+
+}

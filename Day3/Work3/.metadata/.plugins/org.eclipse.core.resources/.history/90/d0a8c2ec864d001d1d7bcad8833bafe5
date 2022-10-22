@@ -1,0 +1,5 @@
+package kodlamaIoMimari.core.logging;
+
+public interface Logger {
+ public void log();
+}

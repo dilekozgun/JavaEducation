@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.dataAccess.CourseDao"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.dataAccess.CategoryDao"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.dataAccess.InstructorDao"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.core.logging.Logger"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.entities.Course"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.business.CourseManager"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.dataAccess.HibernateCourseDao"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.business.CategoryManager"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.dataAccess.JdbcCategoryDao"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.entities.Category"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.entities.Instructor"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.business.InstructorManager"/>
+    <fullyQualifiedTypeName name="kodlamaIoMimari.dataAccess.HibernateInstructorDao"/>
+</qualifiedTypeNameHistroy>

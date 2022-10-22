@@ -1,0 +1,32 @@
+package numberFind;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// mini proje : sayı bulma,dizinin içerisinde istenilen sayıyı bulma
+		
+		int[] sayilar = new int[] {1,2,5,7,9,0};
+		int numberFind=5;
+		int flag=0;
+		
+		for (int i : sayilar) {
+			if (numberFind == i) {
+				System.out.println("Sayı bulundu");
+				flag=1;
+			}
+		}
+		if (flag==0) {
+			System.out.println("Sayı bulunamadı");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

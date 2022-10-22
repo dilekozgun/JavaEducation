@@ -1,0 +1,19 @@
+package oopWithNLayeredApp;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Bir uygulamada kodlarımızı üç katmana böleriz 
+		// Amacımız kodları kolay yönetebilmek ve sürdürülebilirlik 
+		// Data Access : Veriye Erişim Kodları
+		// Business : İş geliştirme,kişiye özel veri gelmesi için kodlar
+		// UI : User İnterface, Arayüz kodları
+		
+		
+		//JDBC : Java uygulamalarında veritabanı bağlantısını sağlar
+		//Hibernate-ORM : JDBC nin geliştirmesi
+		//JPA : Hibernate Geliştirmesi
+
+	}
+
+}

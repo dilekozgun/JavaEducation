@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// inheritance : miras demektir ve class lar arasında yapılır.
+		//Bir nesne diğerine miras bırakır.
+
+	}
+
+}

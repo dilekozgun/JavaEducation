@@ -1,0 +1,33 @@
+package oopWithNLayeredApp.business;
+
+import oopWithNLayeredApp.dataAccess.JdbcProductDao;
+import oopWithNLayeredApp.dataAccess.ProductDao;
+import oopWithNLayeredApp.entities.Product;
+
+public class ProductManager {
+	public void add(Product product) throws Exception { //throws Exception : bu methodu çağırdığında hata fırlatılabilir demek
+		//Business Rools : İş kuralları
+		if (product.getUnitPrice()<10) { // eğer ürünün fiyatı 10 dan küçükse
+			throw new Exception("Ürün fiyatı 10 dan küçük olamaz."); // yeni bir hata fırlat,eğer sistem hata verirse orada kesilir program aşağı ilerlemez kodlarda
+		}
+		
+		//Yukarıdaki iş kuralını,yani şartımızı geçen bir ürün eklenmeye uygun anlamına gelir
+		//Şimdi veritabanına ekleyelim
+		
+		//JdbcProductDao productDao = new JdbcProductDao(); //bir class ı kullanabilmek için nesne üretmeliyiz.
+		//productDao.add(product);
+		
+		ProductDao productDao = new JdbcProductDao(); 
+		productDao.add(product);
+		//A sınıfı B sınıfını extends etsin. B sınıfı A sınıfının referansını tutabilir.
+		//Yukarıdaki kodda da benzer şekilde 
+		//İnterface onu implements eden sınıfın new,intense,referansını tutar.
+		
+		
+		
+		
+		
+		
+	}
+
+}

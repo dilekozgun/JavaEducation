@@ -1,0 +1,10 @@
+package overriding;
+
+public class OgrenciKrediManager extends BaseKrediManager {
+	public double hesapla(double tutar) { // BaseKrediManager daki hesapla fonksiyonunu override ettik. Bu işlemi
+		return tutar * 1.10;						// yapabilmemiz için inheritance(kalıtım) ilişkisi gerekiyor.Yani extends
+											// etmeliyiz ki fonksiyon miras olarak çocuğa geçsin.
+		
+	}
+
+}
